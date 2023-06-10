@@ -1,0 +1,26 @@
+.layout-section {
+	padding-bottom: 200px;
+	scroll-margin-top: 20px;  
+}
+.layout-section-title {
+	margin-bottom: 36px;
+}
+.layout-grid-half {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:var(--gap);
+}
+
+hr {
+    margin-block: 40px;
+}
+
+@media (max-width: 37.5rem) {
+	.layout-section {
+		padding-bottom: 100px;
+	}
+	.layout-grid-half {
+	grid-template-columns: 1fr;
+	gap:10px;
+}
+}

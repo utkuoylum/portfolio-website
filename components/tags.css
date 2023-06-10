@@ -1,0 +1,35 @@
+.tags {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.tag {
+    --tag-color: var(--gray);
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    border: 1px solid var(--tag-color);
+    padding: 12px 16px;
+    margin: 8px;
+    margin-left: 0;
+    position: relative;
+    outline: 1px solid transparent;
+}
+
+.tag::before {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border: 1px solid var(--tag-color);
+}
+
+.tag:hover {
+    --tag-color: var(--primary);
+    color: var(--primary);
+    outline-color: var(--primary);
+}
