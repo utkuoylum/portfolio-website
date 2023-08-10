@@ -1,341 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     <title>Etem Utku Oylum | Frontend Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav-icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/fav-icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/fav-icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/fav-icons/site.webmanifest">
-    <link rel="mask-icon" href="/assets/fav-icons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/fav-icons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/assets/fav-icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/fav-icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/fav-icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/fav-icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/fav-icons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/assets/fav-icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/assets/fav-icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/assets/fav-icons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Primary Meta Tags -->
     <title>Etem Utku Oylum | Frontend Developer</title>
-    <meta name="title" content="Etem Utku Oylum | Frontend Developer">
-    <meta name="description" content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio.">
+    <meta name="title" content="Etem Utku Oylum | Frontend Developer" />
+    <meta
+      name="description"
+      content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio."
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Etem Utku Oylum | Frontend Developer">
-    <meta property="og:description" content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio.">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Etem Utku Oylum | Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Etem Utku Oylum | Frontend Developer">
-    <meta property="twitter:description" content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio.">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-</head>
-<body>
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="Etem Utku Oylum | Frontend Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="Etem Utku Oylum is a Berlin based frontend developer. You can learn more about him and check his portfolio."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="container">
-            <div class="navbar">
-        <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
-        <ul class="nav-links">
+      <div class="container">
+        <div class="navbar">
+          <img
+            src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg"
+            alt="logo"
+            width="45"
+            height="43"
+          />
+          <ul class="nav-links">
             <li><a href="#about-me" class="btn btn--nav">About me</a></li>
             <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
             <li><a href="#experience" class="btn btn--nav">Experience</a></li>
-            <li><a href="#testimonials" class="btn btn--nav">Testimonials</a></li>
+            <li>
+              <a href="#testimonials" class="btn btn--nav">Testimonials</a>
+            </li>
             <li><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
-        </ul>
+          </ul>
         </div>
-        </div>
-        <button id="toggle-theme" aria-label="Toggle dark theme"><svg
-            xmlns="http://www.w3.org/2000/svg"
-            enable-background="new 0 0 24 24"
-            height="24px"
-            viewBox="0 0 24 24"
-            width="24px"
-            fill="var(--light-icon)"
+      </div>
+      <button id="toggle-theme" aria-label="Toggle dark theme">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          enable-background="new 0 0 24 24"
+          height="24px"
+          viewBox="0 0 24 24"
+          width="24px"
+          fill="var(--light-icon)"
         >
-            <rect fill="none" height="24" width="24" />
-            <path
-                d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
-            />
-        </svg></button>
+          <rect fill="none" height="24" width="24" />
+          <path
+            d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+          />
+        </svg>
+      </button>
+      <a href="https://github.com/utkuoylum" id="git-logo" target="”_blank”">
+        <img
+          src="assets/github-mark/github-mark.svg"
+          alt="git-logo"
+          width="100"
+          height="100"
+        />
+      </a>
     </nav>
     <main>
-        <!-- INTRO SECTION -->
-        <section id="intro" class="layout-section" aria-describedby="intro-h1 intro-h2">
-            <div class="container">
-                <h1 id="intro-h1" class="title--lg">Etem Utku Oylum</h1>
-                <hr>
-                <h2 id="intro-h2" class="title--lg">Frontend Developer</h2>
-                <p class="text--xl">Utku is a web developer based in Berlin.</p>
-                <p class="text--xl">He brings your idea to life with <strong>modern technology</strong>.</p>
+      <!-- INTRO SECTION -->
+      <section
+        id="intro"
+        class="layout-section"
+        aria-describedby="intro-h1 intro-h2"
+      >
+        <div class="container">
+          <h1 id="intro-h1" class="title--lg">Etem Utku Oylum</h1>
+          <hr />
+          <h2 id="intro-h2" class="title--lg">Frontend Developer</h2>
+          <p class="text--xl">Utku is a web developer based in Berlin.</p>
+          <p class="text--xl">
+            He brings your idea to life with <strong>modern technology</strong>.
+          </p>
+        </div>
+        <button id="scroll-down" aria-label="Scroll down">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="48px"
+            viewBox="0 0 24 24"
+            width="48px"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+              stroke="var(--light-icon)"
+            />
+          </svg>
+        </button>
+      </section>
+
+      <!-- ABOUT ME SECTION -->
+
+      <section
+        id="about-me"
+        class="layout-section"
+        aria-labelledby="heading-aboutme"
+      >
+        <div class="container">
+          <h2 id="heading-aboutme" class="title layout-section-title">
+            About me
+          </h2>
+          <div class="layout-grid-half">
+            <p class="text--lg">
+              Etem Utku Oylum studied computer science and multimedia at the
+              University of Web Design. Years of experience have given Sam a
+              unique angle to approach client projects.
+            </p>
+            <p class="text--lg">
+              Utku works mostly with startups and advises them on the best
+              technology that is suitable for their project.
+            </p>
+            <p class="text--lg">
+              Utku helps you bring your vision to life with attention to detail
+              and an unrivaled focus on quality.
+            </p>
+            <p class="text--lg">
+              Curious to know more? Check-out my
+              <a href="#portfolio">portfolio</a> or
+              <a href="#hire-me">hire me</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORFOLIO SECTION -->
+
+      <section
+        id="portfolio"
+        class="layout-section"
+        aria-labelledby="heading-portfolio"
+      >
+        <div class="container">
+          <h2 id="heading-portfolio" class="title layout-section-title">
+            Portfolio
+          </h2>
+          <div class="portfolio">
+            <img
+              src="assets/banking.png"
+              width="300"
+              height="300"
+              alt="My-bank web app"
+              class="portfolio-screenshot"
+            />
+            <div>
+              <h3 class="title">My Bank web app</h3>
+              <p class="text">
+                A bank app interface that allows you to connnect your credit
+                cards and monitor your balance. Multi-paged, responsively
+                designed.
+              </p>
+              <a
+                href="https://mybankappp.netlify.app/"
+                class="btn btn--line"
+                target="_blank"
+                >Visit</a
+              >
             </div>
-            <button id="scroll-down" aria-label="Scroll down">
-                <svg xmlns="http://www.w3.org/2000/svg"
-     height="48px"
-     viewBox="0 0 24 24"
-     width="48px">
-  <path d="M0 0h24v24H0V0z" fill="none" />
-  <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" stroke="var(--light-icon)" />
-</svg>
-            </button>
-        </section>
+          </div>
+          <div class="portfolio">
+            <img
+              src="assets/store.jpeg"
+              width="300"
+              height="300"
+              alt="Todo app"
+              class="portfolio-screenshot"
+            />
+            <div>
+              <h3 class="title">Todo app with React</h3>
+              <p class="text">
+                I created this simple app as my first React project which allows
+                you to add/delete product for your store.
+              </p>
+              <a
+                href="https://storefrontappp.netlify.app/"
+                class="btn btn--line"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="portfolio">
+            <img
+              src="assets/calory.jpeg"
+              width="300"
+              height="300"
+              alt="Calory Calculator"
+              class="portfolio-screenshot"
+            />
+            <div>
+              <h3 class="title">Calory Calculator</h3>
+              <p class="text">
+                This is a app to store your calory calculations with the help of
+                Rest API. It also include a graph feature for visualization.
+              </p>
+              <a
+                href="https://calory-calculator-app.netlify.app/"
+                class="btn btn--line"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="portfolio">
+            <img
+              src="assets/drum.webp"
+              width="300"
+              height="300"
+              alt="Drum Kit"
+              class="portfolio-screenshot"
+            />
+            <div>
+              <h3 class="title">Drum Kit app</h3>
+              <p class="text">
+                I love music and learning coding. This app allows you to play
+                some drums with your keyboard.
+              </p>
+              <a
+                href="https://github.com/utkuoylum/Drum-Kit"
+                class="btn btn--line"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- ABOUT ME SECTION -->
+      <!-- EXPERIENCE SECTİON -->
+      <section
+        id="experience"
+        class="layout-section"
+        aria-labelledby="heading-experience"
+      >
+        <div class="container">
+          <h2 id="heading-experience" class="title--sm layout-section-title">
+            Experience
+          </h2>
+          <ul class="tags">
+            <li class="tag">HTML</li>
+            <li class="tag">CSS</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">React.js</li>
+            <li class="tag">Wordpress</li>
+            <li class="tag">Git</li>
+            <li class="tag">GitHub</li>
+            <li class="tag">Vitejs</li>
+            <li class="tag">Rest API</li>
+            <li class="tag">Responsive Web Design</li>
+            <li class="tag">Adobe Photoshop</li>
+            <li class="tag">Adobe Premiere Pro</li>
+            <li class="tag">Adobe Lightroom</li>
+            <li class="tag">Adobe Audition</li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="about-me" class="layout-section" aria-labelledby="heading-aboutme">
-            <div class="container">
-                <h2 id="heading-aboutme" class="title layout-section-title">About me</h2>
-                <div class="layout-grid-half">
+      <!-- TESTIMONIALS SECTION -->
+      <section
+        id="testimonials"
+        class="layout-section"
+        aria-labelledby="heading-testimonials"
+      >
+        <div class="container">
+          <h2 id="heading-testimonials" class="title layout-section-title">
+            Testimonials
+          </h2>
+          <div class="layout-grid-half">
+            <figure>
+              <blockquote>
                 <p class="text--lg">
-                    Etem Utku Oylum studied computer science and
-                    multimedia at the University of Web Design.
-                    Years of experience have given Sam a unique
-                    angle to approach client projects.
+                  Utku has completely transformed the way we launch our
+                  products! What we particularly appreciate is the attention to
+                  detail and express communication. We are really happy that the
+                  whole project was completed worry-free! Thank you, Utku!
                 </p>
+              </blockquote>
+            </figure>
+            <figure>
+              <blockquote>
                 <p class="text--lg">
-                    Utku works mostly with startups and advises them
-                    on the best technology that is suitable for
-                    their project.
+                  We were skeptical at first. However, Utku over delivered on
+                  our project. We are very happy and satisfied customers.
+                  Definitely recommended for startups!
                 </p>
-                <p class="text--lg">
-                    Utku helps you bring your vision to life with
-                    attention to detail and an unrivaled focus on
-                    quality.
-                </p>
-                <p class="text--lg">
-                    Curious to know more? Check-out my
-                    <a href="#portfolio">portfolio</a> or
-                    <a href="#hire-me">hire me</a>
-                </p>
-                </div>
-            </div>
-        </section>
+              </blockquote>
+            </figure>
+          </div>
+        </div>
+      </section>
 
-        <!-- PORFOLIO SECTION -->
+      <!-- HIRE ME SECTION -->
 
-        <section id="portfolio" class="layout-section" aria-labelledby="heading-portfolio">
-            <div class="container">
-                <h2 id="heading-portfolio" class="title layout-section-title">Portfolio</h2>
-                <div class="portfolio">
-                    <img
-                        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg"
-                        width="300"
-                        height="300"
-                        alt="Stocks web app"
-                        class="portfolio-screenshot"
-                    />
-                    <div>
-                        <h3 class="title">Stocks web app</h3>
-                        <p class="text">
-                            Worked with a client in the United States on
-                            a stocks web app with dark theme. The web
-                            app is accessible and performes really well
-                            on entry-level devices.
-                        </p>
-                        <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                    </div>
+      <section
+        id="hire-me"
+        class="layout-section"
+        aria-labelledby="heading-hireme"
+      >
+        <div class="container">
+          <h2 id="heading-hireme" class="title--sm layout-section-title">
+            Hire Me
+          </h2>
+          <div class="hire-form">
+            <address>
+              <div class="hire-line">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 2.5C10.1625 2.5 6.25 6.4125 6.25 11.25C6.25 17.8125 15 27.5 15 27.5C15 27.5 23.75 17.8125 23.75 11.25C23.75 6.4125 19.8375 2.5 15 2.5ZM15 14.375C13.275 14.375 11.875 12.975 11.875 11.25C11.875 9.525 13.275 8.125 15 8.125C16.725 8.125 18.125 9.525 18.125 11.25C18.125 12.975 16.725 14.375 15 14.375Z"
+                    fill="var(--light-icon)"
+                  />
+                </svg>
+                <div>
+                  <p class="text">Current location</p>
+                  <p class="text--bold">
+                    Winterfeldtstraße 10781<br />
+                    Berlin, Germany
+                  </p>
                 </div>
-                <div class="portfolio">
-                    <img
-                        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-2.jpg"
-                        width="300"
-                        height="300"
-                        alt="Todo app"
-                        class="portfolio-screenshot"
-                    />
-                    <div>
-                        <h3 class="title">Todo app</h3>
-                        <p class="text">
-                            Having goals is a must in every day life.
-                            This is why I created this Todo app that I
-                            use every workday to plan my tasks ahead.
-                        </p>
-                        <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                    </div>
+              </div>
+              <div class="hire-line">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 5H5C3.625 5 2.5125 6.125 2.5125 7.5L2.5 22.5C2.5 23.875 3.625 25 5 25H25C26.375 25 27.5 23.875 27.5 22.5V7.5C27.5 6.125 26.375 5 25 5ZM25 10L15 16.25L5 10V7.5L15 13.75L25 7.5V10Z"
+                    fill="var(--light-icon)"
+                  />
+                </svg>
+                <div>
+                  <p class="text">Email</p>
+                  <a class="text--bold" href="mailto:email@example.com">
+                    utkuoylum@gmail.com
+                  </a>
                 </div>
-                <div class="portfolio">
-                    <img
-                        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg"
-                        width="300"
-                        height="300"
-                        alt="Travel planner"
-                        class="portfolio-screenshot"
-                    />
-                    <div>
-                        <h3 class="title">Travel planner</h3>
-                        <p class="text">
-                            Once a year, it's time to let the place you
-                            go home and go discover. With this Travel
-                            planner, you can easily plan your next trip.
-                            So, where will you go?
-                        </p>
-                        <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <img
-                        src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg"
-                        width="300"
-                        height="300"
-                        alt="Sports tracker"
-                        class="portfolio-screenshot"
-                    />
-                    <div>
-                        <h3 class="title">Sports tracker</h3>
-                        <p class="text">
-                            I love sports. I love to track my progress.
-                            With this sports tracker app, you can easily
-                            track your progress and unlock achievements.
-                            The unique gamification aspect makes you
-                            want to keep smashing your goals!
-                        </p>
-                        <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- EXPERIENCE SECTİON -->
-        <section id="experience" class="layout-section" aria-labelledby="heading-experience">
-            <div class="container">
-                <h2 id="heading-experience" class="title--sm layout-section-title">Experience</h2>
-				<ul class="tags">
-                    <li class="tag">Startup advice</li>
-                    <li class="tag">Income tax</li>
-                    <li class="tag">Sales tax</li>
-                    <li class="tag">Minimum Viable Product</li>
-                    <li class="tag">HTML</li>
-                    <li class="tag">CSS</li>
-                    <li class="tag">JavaScript</li>
-                    <li class="tag">PHP</li>
-                    <li class="tag">Laravel</li>
-                    <li class="tag">Ruby</li>
-                    <li class="tag">Ruby on Rails</li>
-                    <li class="tag">React</li>
-                    <li class="tag">Vue</li>
-                    <li class="tag">MySql</li>
-                	<li class="tag">Google Cloud</li>
-				</ul>
-            </div>
-        </section>
-
-        <!-- TESTIMONIALS SECTION -->
-        <section id="testimonials" class="layout-section" aria-labelledby="heading-testimonials">
-            <div class="container">
-                <h2 id="heading-testimonials" class="title layout-section-title">
-                    Testimonials
-                </h2>
-                <div class="layout-grid-half">
-                    <figure>
-                        <blockquote>
-                            <p class="text--lg">
-                                Sam has completely transformed the way we
-                                launch our products! What we particularly
-                                appreciate is the attention to detail and
-                                express communication. We are really happy
-                                that the whole project was completed
-                                worry-free! Thank you, Sam!
-                            </p>
-                        </blockquote>
-                    </figure>
-                    <figure>
-                        <blockquote>
-                            <p class="text--lg">
-                                We were skeptical at first. However, Sam
-                                over delivered on our project. We are very
-                                happy and satisfied customers. Definitely
-                                recommended for startups!
-                            </p>
-                        </blockquote>
-                    </figure>
-                </div>
-            </div>
-        </section>
-
-        <!-- HIRE ME SECTION -->
-
-        <section id="hire-me" class="layout-section" aria-labelledby="heading-hireme">
-            <div class="container">
-                <h2 id="heading-hireme" class="title--sm layout-section-title">Hire Me</h2>
-                <div class="hire-form">
-                    <address>
-                        <div class="hire-line">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15 2.5C10.1625 2.5 6.25 6.4125 6.25 11.25C6.25 17.8125 15 27.5 15 27.5C15 27.5 23.75 17.8125 23.75 11.25C23.75 6.4125 19.8375 2.5 15 2.5ZM15 14.375C13.275 14.375 11.875 12.975 11.875 11.25C11.875 9.525 13.275 8.125 15 8.125C16.725 8.125 18.125 9.525 18.125 11.25C18.125 12.975 16.725 14.375 15 14.375Z" fill="var(--light-icon)" />
-                            </svg>
-                            <div>
-                                <p class="text">Current location</p>
-                                <p class="text--bold">
-                                    Winterfeldtstraße 10781<br />
-                                    Berlin, Germany
-                                </p>
-                            </div>
-                        </div>
-                        <div class="hire-line">
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M25 5H5C3.625 5 2.5125 6.125 2.5125 7.5L2.5 22.5C2.5 23.875 3.625 25 5 25H25C26.375 25 27.5 23.875 27.5 22.5V7.5C27.5 6.125 26.375 5 25 5ZM25 10L15 16.25L5 10V7.5L15 13.75L25 7.5V10Z" fill="var(--light-icon)" />
-                            </svg>
-                            <div>
-                                <p class="text">Email</p>
-                                <a class="text--bold" href="mailto:email@example.com">
-                                    utkuoylum@gmail.com
-                                </a>
-                            </div>
-                        </div>
-                    </address>
-                    <form netlify>
-                        <label for="hire-name" class="sr-only">Your name</label>
-                        <input id="hire-name" type="text" autocomplete="name" class="input" placeholder="Your name" name="name" />
-                        <label for="hire-email" class="sr-only">Your email</label>
-                        <input id="hire-email" type="email" autocomplete="email" class="input" placeholder="Your email" name="email"/>
-                        <label for="hire-message" class="sr-only">Your message</label>
-                        <textarea id="hire-message" class="input" placeholder="Your message" name="message"></textarea>
-                        <div class="hire-action">
-                            <input type="submit" class="btn btn--raised" value="Send" />
-                        </div>
-                    </form>
-				</div>
-            </div>
-        </section>
+              </div>
+            </address>
+            <form netlify>
+              <label for="hire-name" class="sr-only">Your name</label>
+              <input
+                id="hire-name"
+                type="text"
+                autocomplete="name"
+                class="input"
+                placeholder="Your name"
+                name="name"
+              />
+              <label for="hire-email" class="sr-only">Your email</label>
+              <input
+                id="hire-email"
+                type="email"
+                autocomplete="email"
+                class="input"
+                placeholder="Your email"
+                name="email"
+              />
+              <label for="hire-message" class="sr-only">Your message</label>
+              <textarea
+                id="hire-message"
+                class="input"
+                placeholder="Your message"
+                name="message"
+              ></textarea>
+              <div class="hire-action">
+                <input type="submit" class="btn btn--raised" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="side">
-                    <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg" alt="Sam Green logo" width="45" height="43" />
-                    <div>
-                        <p class="text--bold footer-name">&copy; 2023 Etem Utku Oylum</p>
-                        <p class="footer-rights">
-                            <small class="text--sm">All rights reserved.</small>
-                        </p>
-                    </div>
-                </div>
-                <div class="side">
-                    <p class="text--sm">@utkuoylum on Social Media</p>
-                    <ul class="footer-social">
-                        <li>
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM15.5544 13.5582L15.5208 13.0046C15.4201 11.5697 16.3042 10.259 17.7032 9.75059C18.218 9.56981 19.0909 9.54721 19.6617 9.70539C19.8856 9.77318 20.3108 9.99916 20.613 10.2025L21.1614 10.5754L21.7658 10.3833C22.1015 10.2816 22.5492 10.1121 22.7506 9.99916C22.9409 9.89747 23.1088 9.84097 23.1088 9.87487C23.1088 10.0669 22.6947 10.7223 22.3477 11.0838C21.8777 11.5923 22.012 11.6375 22.9633 11.2985C23.534 11.1064 23.5452 11.1064 23.4333 11.3211C23.3662 11.4341 23.0192 11.8295 22.6499 12.1911C22.0232 12.8125 21.9896 12.8803 21.9896 13.4001C21.9896 14.2023 21.6091 15.8745 21.2286 16.7897C20.5235 18.5071 19.0126 20.281 17.5017 21.1736C15.3753 22.4277 12.5438 22.7441 10.16 22.0097C9.36538 21.7611 8 21.1284 8 21.0154C8 20.9815 8.41409 20.9363 8.91772 20.925C9.96973 20.9024 11.0218 20.6086 11.9171 20.0889L12.5214 19.7273L11.8276 19.4901C10.8427 19.1511 9.95854 18.3715 9.73471 17.6371C9.66756 17.3998 9.68994 17.3885 10.3167 17.3885L10.9658 17.3772L10.4174 17.1173C9.76828 16.7897 9.17513 16.236 8.88414 15.6711C8.6715 15.2643 8.4029 14.2362 8.48124 14.1571C8.50362 14.1232 8.73865 14.191 9.00725 14.2814C9.77948 14.5638 9.8802 14.496 9.43253 14.0215C8.59316 13.1628 8.33575 11.886 8.73865 10.6771L8.92891 10.1347L9.66756 10.8692C11.1784 12.3493 12.9579 13.2306 14.9948 13.4905L15.5544 13.5582Z"
-                                fill="var(--light-icon)" />
-                            </svg>
-                        </li>
-                        <li>
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM7.68101 13.252H11.307V24.1464H7.68101V13.252ZM11.5479 9.8818C11.5244 8.8136 10.7605 8 9.5201 8C8.27969 8 7.46875 8.8136 7.46875 9.8818C7.46875 10.9279 8.25572 11.7649 9.47304 11.7649H9.49621C10.7605 11.7649 11.5479 10.9279 11.5479 9.8818ZM20.2088 12.9961C22.5948 12.9961 24.3836 14.5535 24.3836 17.8998L24.3834 24.1464H20.7576V18.3178C20.7576 16.8538 20.2329 15.8548 18.9203 15.8548C17.9186 15.8548 17.3219 16.5283 17.0599 17.1788C16.964 17.4119 16.9404 17.7367 16.9404 18.0623V24.1467H13.3141C13.3141 24.1467 13.3619 14.2745 13.3141 13.2522H16.9404V14.7953C17.4217 14.0535 18.2836 12.9961 20.2088 12.9961Z" fill="var(--light-icon)" />
-                            </svg>
-                        </li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer">
+          <div class="side">
+            <img
+              src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg"
+              alt="Sam Green logo"
+              width="45"
+              height="43"
+            />
+            <div>
+              <p class="text--bold footer-name">&copy; 2023 Etem Utku Oylum</p>
+              <p class="footer-rights">
+                <small class="text--sm">All rights reserved.</small>
+              </p>
             </div>
+          </div>
+          <div class="side">
+            <p class="text--sm">@utkuoylum on Social Media</p>
+            <ul class="footer-social">
+              <li>
+                <a href="https://twitter.com/UtkuOylum">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM15.5544 13.5582L15.5208 13.0046C15.4201 11.5697 16.3042 10.259 17.7032 9.75059C18.218 9.56981 19.0909 9.54721 19.6617 9.70539C19.8856 9.77318 20.3108 9.99916 20.613 10.2025L21.1614 10.5754L21.7658 10.3833C22.1015 10.2816 22.5492 10.1121 22.7506 9.99916C22.9409 9.89747 23.1088 9.84097 23.1088 9.87487C23.1088 10.0669 22.6947 10.7223 22.3477 11.0838C21.8777 11.5923 22.012 11.6375 22.9633 11.2985C23.534 11.1064 23.5452 11.1064 23.4333 11.3211C23.3662 11.4341 23.0192 11.8295 22.6499 12.1911C22.0232 12.8125 21.9896 12.8803 21.9896 13.4001C21.9896 14.2023 21.6091 15.8745 21.2286 16.7897C20.5235 18.5071 19.0126 20.281 17.5017 21.1736C15.3753 22.4277 12.5438 22.7441 10.16 22.0097C9.36538 21.7611 8 21.1284 8 21.0154C8 20.9815 8.41409 20.9363 8.91772 20.925C9.96973 20.9024 11.0218 20.6086 11.9171 20.0889L12.5214 19.7273L11.8276 19.4901C10.8427 19.1511 9.95854 18.3715 9.73471 17.6371C9.66756 17.3998 9.68994 17.3885 10.3167 17.3885L10.9658 17.3772L10.4174 17.1173C9.76828 16.7897 9.17513 16.236 8.88414 15.6711C8.6715 15.2643 8.4029 14.2362 8.48124 14.1571C8.50362 14.1232 8.73865 14.191 9.00725 14.2814C9.77948 14.5638 9.8802 14.496 9.43253 14.0215C8.59316 13.1628 8.33575 11.886 8.73865 10.6771L8.92891 10.1347L9.66756 10.8692C11.1784 12.3493 12.9579 13.2306 14.9948 13.4905L15.5544 13.5582Z"
+                      fill="var(--light-icon)"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/utkuoylum/">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM7.68101 13.252H11.307V24.1464H7.68101V13.252ZM11.5479 9.8818C11.5244 8.8136 10.7605 8 9.5201 8C8.27969 8 7.46875 8.8136 7.46875 9.8818C7.46875 10.9279 8.25572 11.7649 9.47304 11.7649H9.49621C10.7605 11.7649 11.5479 10.9279 11.5479 9.8818ZM20.2088 12.9961C22.5948 12.9961 24.3836 14.5535 24.3836 17.8998L24.3834 24.1464H20.7576V18.3178C20.7576 16.8538 20.2329 15.8548 18.9203 15.8548C17.9186 15.8548 17.3219 16.5283 17.0599 17.1788C16.964 17.4119 16.9404 17.7367 16.9404 18.0623V24.1467H13.3141C13.3141 24.1467 13.3619 14.2745 13.3141 13.2522H16.9404V14.7953C17.4217 14.0535 18.2836 12.9961 20.2088 12.9961Z"
+                      fill="var(--light-icon)"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <script type="module" src="main.js"></script>
-</body>
+  </body>
 </html>
