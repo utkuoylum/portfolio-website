@@ -1,0 +1,54 @@
+$n: 15; /* number of small circles */
+
+@property --a {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: true;
+}
+@property --i {
+  syntax: "<length>";
+  initial-value: 0px;
+  inherits: true;
+}
+
+#avatar {
+  --r: 50px; /* control the small circles radius and the main size */
+  --f: 1.7;  /* control the scale factor, between 1.5 and 2 you get nice result */
+  --c: #E4844A;
+  
+  width: calc(var(--r)*(1 + 1/tan(180deg/#{$n})));
+  aspect-ratio: 1;
+  border-radius: 50%;
+  --_g:/var(--r) var(--r) radial-gradient(var(--c) 70%,#0000 72%) no-repeat;
+  --_d: 50% + (50% - var(--i,0px));
+  $m: ();
+  @for $i from 1 through ($n) {
+    $m: append($m, 
+         calc(var(--_d)*cos(360deg*#{$i/$n} + var(--a,0deg))) 
+         calc(var(--_d)*sin(360deg*#{$i/$n} + var(--a,0deg))) var(--_g), 
+        comma);
+   }
+  --_m: 
+    radial-gradient(var(--c) calc(72% - var(--r)/2),#0000 0) no-repeat
+     50%/calc(100% - var(--i,0px)) calc(100% - var(--i,0px)),
+    #{$m};
+  -webkit-mask: 
+    linear-gradient(#000 0 0) top/100% 50% no-repeat,
+    var(--_m);
+  background: var(--_m);
+  --_a: rotate linear infinite;
+  animation: 
+    var(--_a) 10s,
+    var(--_a) 16s reverse;
+  animation-composition: add;
+  cursor: pointer;
+  transition: --i .4s, scale .4s;
+}
+#avatar:hover {
+  --i: calc(var(--r)/var(--f));
+  scale: calc((1 + 1/tan(180deg/#{$n}))/(1 - var(--f) + 1/tan(180deg/#{$n})));
+  animation-play-state: running, paused;
+}
+@keyframes rotate {
+  to{--a:360deg}
+}
